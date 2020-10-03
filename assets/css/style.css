@@ -13,6 +13,9 @@ nav {
 .bg-blue-ss {
     background-color: #464d73;
 }
+.bg-greenblue-ss {
+    background-color: #43d9ae;
+}
 .title-carousel {
     color:  #43d9ae;
     font-size: 3rem;
@@ -60,3 +63,32 @@ nav {
 .text-detalles:hover {
     color: #464d73;
 }
+.text-vermas {
+    font-size: 1.25rem;
+    color: #43d9ae;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text-vermas:hover {
+    color: #fff;
+}
+.img-footer {
+    Margin-top: -30px;
+}
+.icon-footer {
+    font-size: 4rem;
+    color: #464d73;
+    text-align: center;
+}
+.icon-footer:hover {
+    color: #fff;
+}
+.ws-flotante {
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9;
+}
+
+

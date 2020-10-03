@@ -16,7 +16,7 @@ nav {
 .title-carousel {
     color:  #43d9ae;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 300;
 }
 .carousel-caption {
     bottom: 0%;
@@ -34,6 +34,29 @@ nav {
     border-bottom: solid 2px #000;
     width: 150px;
 }
+.linea-secundaria {
+    border-bottom: solid 2px #fff;
+    width: 150px;
+}
 .font-700 {
     font-weight: 700;
+}
+.btn-ss {
+    color: #fff;
+    background-color: #43d9ae;
+    border-color: #43d9ae;
+}
+.btn-ss:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #464d73;
+    border-color: #464d73;
+}
+.text-detalles {
+    color: #43d9ae;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text-detalles:hover {
+    color: #464d73;
 }

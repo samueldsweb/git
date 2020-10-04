@@ -56,12 +56,12 @@ nav {
     border-color: #464d73;
 }
 .text-detalles {
-    color: #43d9ae;
+    color: #464d73;
     text-decoration: underline;
     cursor: pointer;
 }
 .text-detalles:hover {
-    color: #464d73;
+    color: #43d9ae;
 }
 .text-vermas {
     font-size: 1.25rem;
@@ -90,5 +90,3 @@ nav {
     right: 50px;
     z-index: 9;
 }
-
-

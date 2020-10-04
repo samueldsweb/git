@@ -23,78 +23,191 @@
 </head>
 
 <body>
-  <!-- Menú -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-blue-ss fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="assets/images/logo-ss.png" width="200"
-          alt="Portafolio Samuel Sánchez"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Experiencias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-        </ul>
+  <!-- Modales de Experiencias Laborales -->
+    <!-- UCV -->
+    <div class="modal fade" id="modalucv" tabindex="-1" aria-labelledby="modalucvLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalucvLabel">Experiencia en UCV</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Universidad Central de Venezuela</h5>
+            <p>Desarrollador Web -  <em>Practica más continuidad laboral.</em></p>
+            <ul>
+              <li>Diseño de Páginas y Aplicaciones Web.</li>
+              <li>Manejo de Framework y CMS.</li>
+              <li>Diseño e Implementación de Sistemas de Información.</li>
+              <li>Manejo de BBDD.</li>
+            </ul>
+            <small>Duración: 1 año y 11 meses</small>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav><!-- Fin Menú -->
+    </div><!-- Fin, UCV -->
 
-  <!-- Carrusel Desktop -->
-  <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-md-5 d-none d-sm-block" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/background-section.jpg" class="d-block w-100" alt="Área de Trabajo de Samuel Sánchez">
-        <div class="carousel-caption d-none d-md-block">
-          <h1 class="title-carousel">¡HOLA, SOY SAMUEL!</h1>
+    <!-- FMC -->
+    <div class="modal fade" id="modalfmc" tabindex="-1" aria-labelledby="modalfmcLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalfmcLabel">Experiencia en FMC Brand</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Free Movement Clothing</h5>
+            <p>Diseñador Web & Director eCommerce</p>
+            <ul>
+              <li>Desarrollo Web.</li>
+              <li>Diseño de tienda virtual.</li>
+              <li>Gestión de flujo y estudios de usabilidad.</li>
+              <li>Coordinación de equipo creativo.</li>
+            </ul>
+            <small>Duración: 3 año y 7 meses</small>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="assets/images/background-section.jpg" class="d-block w-100" alt="Área de Trabajo de Samuel Sánchez">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="title-carousel">DISEÑADOR WEB & UX/UI</h2>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div><!-- Fin Carrusel Desktop -->
+    </div><!-- Fin, FMC -->
 
-  <!-- Carrusel Mobile -->
-  <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-md-5 d-block d-sm-none" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/samueldsweb.gif" class="d-block w-100" alt="Área de Trabajo de Samuel Sánchez">
-        <div class="carousel-caption">
+    <!-- Agencia Digital SS -->
+    <div class="modal fade" id="modaladss" tabindex="-1" aria-labelledby="modaladssLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modaladssLabel">Experiencia en Agencia Digial SS</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Servicio de Software</h5>
+            <p>Diseñador Web Freelancer</p>
+            <ul>
+              <li>Desarrollo Web.</li>
+              <li>Desarrollo eCommerce.</li>
+              <li>Diseño de Sistemas de Información.</li>
+            </ul>
+            <small>Duración: Más de 2 años hasta la actualidad...</small>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
         </div>
       </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div><!-- Fin Carrusel Mobile -->
+    </div><!-- Fin, Agencia Digital SS -->
+
+    <!-- Agencia Destacados -->
+    <div class="modal fade" id="modalau" tabindex="-1" aria-labelledby="modalauLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalauLabel">Experiencia en Autos Usados</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Agencia Digital Automotríz</h5>
+            <p>Diseñador Web Senior</p>
+            <ul>
+              <li>Diseño y prototipado de sitios webs y apps.</li>
+              <li>Desarrollo de sitios Web.</li>
+              <li>Gestión de proyectos a través de GIT.</li>
+              <li>Coordinación de proyectos entre equipos de desarrollo.</li>
+            </ul>
+            <small>Duración: Más de 1 año, hasta la actualidad...</small>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- Fin, Agencia Destaados -->
+
+    <!-- Menú -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blue-ss fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo-ss.png" width="200"
+            alt="Portafolio Samuel Sánchez"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobremi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencias">Experiencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- Fin Menú -->
+
+    <!-- Carrusel Desktop -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-md-5 d-none d-sm-block" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/background-section.jpg" class="d-block w-100" alt="Área de Trabajo de Samuel Sánchez">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="title-carousel">¡HOLA, SOY SAMUEL!</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/background-section.jpg" class="d-block w-100" alt="Área de Trabajo de Samuel Sánchez">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="title-carousel">DISEÑADOR WEB & UX/UI</h2>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- Fin Carrusel Desktop -->
+
+    <!-- Carrusel Mobile -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-md-5 d-block d-sm-none" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/samueldsweb.gif" class="d-block w-100" alt="Área de Trabajo de Samuel Sánchez">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- Fin Carrusel Mobile -->
+  <!-- Fin, Modales de Experiencias Laborales -->
 
   <!-- Foto Personal -->
   <div class="container d-none d-lg-block">
@@ -102,7 +215,7 @@
   </div><!-- Fin Foto Personal -->
 
   <!-- Texto sobre mi -->
-  <section class="my-md-5 pt-5">
+  <section class="my-md-5 pt-5" id="sobremi">
     <div class="container pt-md-5">
       <h3 class="font-700">SOBRE MI</h3>
       <div class="row">
@@ -121,7 +234,7 @@
   </section><!-- TFin exto sobre mi -->
 
   <!-- Experiencia Laboral -->
-  <section>
+  <section id="experiencias">
     <div class="container my-5">
       <h3 class="font-700 text-center">MI EXPERIENCIA</h3>
       <hr class="linea-primaria">
@@ -130,28 +243,28 @@
         <div class="col-md-3 text-center">
           <img src="assets/images/ucv.png" class="img-fluid" alt="Universidad Central de Venezuela">
           <h5 class="font-weight-bold">Desarrollador Web</h5>
-          <p>Enero 2013 - Diciembre 2014 <br> <span class="text-detalles">Ver Detalles &nbsp;<i class="fas fa-plus"></i></span></p>
+          <p>Enero 2013 - Diciembre 2014 <br> <span class="text-detalles" data-toggle="modal" data-target="#modalucv">Ver Detalles &nbsp;<i class="fas fa-plus"></i></span></p>
           <hr class="d-block d-sm-none">
         </div>
         
         <div class="col-md-3 text-center">
           <img src="assets/images/fmc.png" class="img-fluid" alt="Universidad Central de Venezuela">
           <h5 class="font-weight-bold">Diseñador Web</h5>
-          <p>Enero 2015 - Julio 2018 <br> <span class="text-detalles">Ver Detalles &nbsp;<i class="fas fa-plus"></i></span></p>
+          <p>Enero 2015 - Julio 2018 <br> <span class="text-detalles" data-toggle="modal" data-target="#modalfmc">Ver Detalles &nbsp;<i class="fas fa-plus"></i></span></p>
           <hr class="d-block d-sm-none">
         </div>
         
         <div class="col-md-3 text-center">
           <img src="assets/images/agencia-digital-ss.png" class="img-fluid" alt="Universidad Central de Venezuela">
           <h5 class="font-weight-bold">Desarrollador Web</h5>
-          <p>Agosto 2018 - Actual <br> <span class="text-detalles">Ver Detalles &nbsp;<i class="fas fa-plus"></i></span></p>
+          <p>Agosto 2018 - Actual <br> <span class="text-detalles" data-toggle="modal" data-target="#modaladss">Ver Detalles &nbsp;<i class="fas fa-plus"></i></span></p>
           <hr class="d-block d-sm-none">
         </div>
         
         <div class="col-md-3 text-center">
           <img src="assets/images/autos-usados.png" class="img-fluid" alt="Universidad Central de Venezuela">
           <h5 class="font-weight-bold">Diseñador Web Senior</h5>
-          <p>Agosto 2019 - Actual <br> <span class="text-detalles">Ver Detalles &nbsp;<i class="fas fa-plus"></i></span></p>
+          <p>Agosto 2019 - Actual <br> <span class="text-detalles" data-toggle="modal" data-target="#modalau">Ver Detalles &nbsp;<i class="fas fa-plus"></i></span></p>
         </div>
         
       </div>
@@ -159,7 +272,7 @@
   </section><!-- Fin, Experiencia Laboral -->
 
   <!-- Mis últimos trabajos -->
-  <section>
+  <section id="trabajos">
     <div class="container-fluid mb-5 bg-blue-ss">
       <div class="container py-5">
         <h3 class="font-700 text-center text-white">MIS ÚLTIMOS TRABAJOS</h3>
@@ -280,6 +393,11 @@
     </div>
   </section><!-- Fin, Mis últimos trabajos -->
 
+  <!-- Typeform -->
+  <div class="typeform-widget" data-url="https://form.typeform.com/to/PHCW8IiJ" style="width: 100%; height: 500px;" id="contacto"></div>
+  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+  <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> Desarrollado por <a href="https://admin.typeform.com/signup?utm_campaign=PHCW8IiJ&utm_source=typeform.com-01EKRDTS4NMH6287TXHY135HAG-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>  
+  
   <!-- Icono de Whatsapp -->
   <a href="wa.link/j4jdln" target="_blank">
     <img src="assets/images/whatsapp.png" alt="Escribeme al whatsapp" class="ws-flotante" data-toggle="tooltip" data-placement="top" title="Escríbeme al WhatsApp">

@@ -68,13 +68,13 @@ nav {
 .text-detalles:hover {
     color: #43d9ae;
 }
-.text-vermas {
+.btn-ss-mas {
     font-size: 1.25rem;
     color: #43d9ae;
     text-decoration: underline;
     cursor: pointer;
 }
-.text-vermas:hover {
+.btn-ss-mas:hover {
     color: #fff;
 }
 .img-footer {
